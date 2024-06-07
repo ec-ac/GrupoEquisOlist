@@ -1,0 +1,10 @@
+Grupo Equis - Gabriel Chang y Ernesto Alaniz
+
+*CONEXION CON EL SERVIDOR EXITOSA*
+
+*La base de datos fue creada exitosamente, o ya existia*
+
+*Script de creacion de esquema de la base de datos ejecutado exitosamente*
+
+
+*CONEXION CERRADA*
