@@ -3,7 +3,7 @@ import pyodbc
 
 nombre_servidor = '.' 
 driver = 'ODBC Driver 17 for SQL Server'
-schema_script_sql = 'OlistCreateDBSchema.sql'
+schema_script_sql = 'StagingOlistCreateDBSchema.sql'
 nombre_db = 'OlistStaging'
 
 try:
@@ -47,7 +47,7 @@ try:
     
     # Ejecutar el script SQL, pasando al cadena de texto con el contenido del script, obtenido-
     # del método "read" del objeto file "createSchema_file" que lee del archivo sql en el proyecto
-    cursor.execute(createSchema_script)    
+    cursor.execute(createSchema_script)
     
     print("*Script de creación de esquema de la base de datos ejecutado exitosamente*")
     with open("log_outputFile.txt", "a") as f:
